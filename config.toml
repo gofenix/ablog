@@ -2,7 +2,6 @@ baseurl                 = "/"               # Your domain name. Must end with "/
 languageCode            = "zh-cn"
 title                   = "不只是码代码的Lucas"
 theme                   = "sam"
-publishDir = "docs"
 # googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
 [params]
