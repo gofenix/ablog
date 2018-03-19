@@ -1,34 +1,68 @@
-baseurl                 = "/"               # Your domain name. Must end with "/"
-languageCode            = "zh-cn"
-title                   = "不只是码代码的Lucas"
-theme                   = "sam"
-# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
+## Basic Configuration
 
+baseurl = "https://zhenfeng-zhu.github.io" 
+builddrafts = false
+canonifyurls = false
+languageCode = "zh-CN"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Lucas"
+title = "Lucas"
+
+theme = "goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-    dateform            = "Mon Jan 02, 2006"
-    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
-    favicon             = "/sam.ico"
-    pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
-    pygmentsCodefences  = true
-    homepage            = "main"                        # What to call the home page link
-    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
-    clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "stay hungry stay foolish."
+author = "Lucas"
+intro = "不只是码代码的Lucas"
+description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
 
-# Metadata
-    description         = "A new Hugo site."            # Max 160 characters show in search results
-    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "I am a writer"
+## Social Accounts
+[params.social]
+github = "<username>"
+instagram = "<username>"
+xing = "<username>"
+linkedin = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+stackoverflow = "<username>"
+email = "you@example.com"
 
-[[params.mainMenu]]
-    link = "/gallery"
-    text = "I am a photographer"
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
 
-[[params.mainMenu]]
-    link = "/about"
-    text = "Who am I?"
-    
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/posts/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/gallery/"

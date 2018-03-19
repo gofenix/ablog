@@ -5,3 +5,6 @@
 [submodule "themes/sam"]
 	path = themes/sam
 	url = https://github.com/hivickylai/hugo-theme-sam.git
+[submodule "themes/goa"]
+	path = themes/goa
+	url = https://github.com/shenoybr/hugo-goa
