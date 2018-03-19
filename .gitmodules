@@ -2,3 +2,6 @@
 	path = public
 	url = https://gitee.com/zhenfeng-zhu/public.git
 
+[submodule "themes/sam"]
+	path = themes/sam
+	url = https://github.com/hivickylai/hugo-theme-sam.git
