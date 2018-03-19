@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://gitee.com/zhenfeng-zhu/public.git
+	url = https://github.com/zhenfeng-zhu/zhenfeng-zhu.github.io.git
 
 [submodule "themes/sam"]
 	path = themes/sam
