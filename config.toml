@@ -22,7 +22,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Lucas"
-intro = "独立思考 / 程序员 / 执着 / 小说控 / 好交益友"
+intro = "code less, play more!"
 description = "毕业于北京邮电大学(数字媒体技术专业)，现就职于Finogeeks(深圳)，负责后台开发。"
 authorimage = "mywechat.jpg"
 dateformat = "Jan 2, 2006"
