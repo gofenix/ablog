@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "www.fengup.top/" 
+baseurl = "/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "zh-CN"
@@ -66,4 +66,9 @@ highlightjs = true
     identifier = "gallery"
     weight = 300
     url = "/gallery/"
+[[menu.main]]
+    name = "nice links"
+    identifier = "nice links"
+    weight = 400
+    url = "/links/"
 
