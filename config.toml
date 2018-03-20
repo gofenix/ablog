@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://zhenfeng-zhu.github.io" 
+baseurl = "/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "zh-CN"
