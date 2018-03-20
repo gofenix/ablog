@@ -35,13 +35,13 @@ keywords = "minimalist,blog,goa,hugo,developer"
 ## Social Accounts
 [params.social]
 github = "zhenfeng-zhu"
-instagram = "<username>"
+# instagram = "<username>"
 # xing = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
+# linkedin = "<username>"
+# twitter = "<username>"
 facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
+# google = "<username>"
+# stackoverflow = "<username>"
 email = "codeless98@163.com"
 
 ## Extras
