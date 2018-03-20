@@ -60,9 +60,10 @@ highlightjs = true
     name = "about"
     identifier = "about"
     weight = 200
-    url = "/about"
+    url = "/about/"
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
+    name = "gallery"
+    identifier = "gallery"
     weight = 300
     url = "/gallery/"
+
