@@ -1,13 +1,13 @@
 ## Basic Configuration
 
-baseurl = "/" 
+baseurl = "www.fengup.top/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "zh-CN"
 
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "../apublic"
 
 author = "Lucas"
 title = "Lucas"
@@ -15,8 +15,8 @@ title = "Lucas"
 theme = "goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
 ## Site Settings

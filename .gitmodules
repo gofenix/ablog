@@ -2,9 +2,3 @@
 	path = public
 	url = https://github.com/zhenfeng-zhu/zhenfeng-zhu.github.io.git
 
-[submodule "themes/sam"]
-	path = themes/sam
-	url = https://github.com/hivickylai/hugo-theme-sam.git
-[submodule "themes/goa"]
-	path = themes/goa
-	url = https://github.com/shenoybr/hugo-goa
