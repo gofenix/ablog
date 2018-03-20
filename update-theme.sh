@@ -1,1 +1,1 @@
-cd themes/sam && git pull
+cd themes/goa && git pull
