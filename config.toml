@@ -22,32 +22,32 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Lucas"
-intro = "不只是码代码的Lucas"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+intro = "独立思考 / 程序员 / 执着 / 小说控 / 好交益友"
+description = "毕业于北京邮电大学(数字媒体技术专业)，目前就职于Finogeeks(深圳)，主要负责后台开发。"
 authorimage = "mywechat.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
+description = "Lucas's blog"
 keywords = "minimalist,blog,goa,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "<username>"
+github = "zhenfeng-zhu"
 instagram = "<username>"
-xing = "<username>"
+# xing = "<username>"
 linkedin = "<username>"
 twitter = "<username>"
 facebook = "<username>"
 google = "<username>"
 stackoverflow = "<username>"
-email = "you@example.com"
+email = "codeless98@163.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = true
+copyright = "© 2018. Lucas. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = false
 highlightjs = true
 
 ## Main Menu
