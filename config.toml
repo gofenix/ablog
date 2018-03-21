@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "../apublic"
 
 author = "Lucas"
-title = "Lucas"
+title = "不只是码代码的Lucas"
 
 theme = "goa"
 
@@ -29,8 +29,8 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Lucas's blog"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "不只是码代码的Lucas"
+keywords = "Lcuas,不只是码代码的,hugo,blog,developer"
 
 ## Social Accounts
 [params.social]
